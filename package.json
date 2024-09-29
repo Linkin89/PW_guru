@@ -1,14 +1,21 @@
 {
   "name": "pw_guru",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright-Page-Object-Model",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Linkin89",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.47.1",
     "@types/node": "^22.5.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "faker-js": "^1.0.0"
   }
 }
